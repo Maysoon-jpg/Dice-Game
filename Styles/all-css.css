@@ -1,0 +1,126 @@
+body,
+    html {
+      height: 100%;
+      width: 95%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #0d1132;
+    }
+
+    .main-frame {
+
+      display: flex;
+      flex-direction: column;
+
+      height: 500px;
+      width: 800px;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #262c5e;
+
+    }
+
+    .top-section {
+      width: 100%;
+      height: 100px;
+      background-color: #262c5ee3;
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .rolldice-button {
+      width: 200px;
+      font-size: 30px;
+      width: 400px;
+      font-family: "Lexend Deca", sans-serif;
+      font-weight: bold;
+      border-radius: 10px;
+      border: none;
+      background-image: linear-gradient(180deg, #ee71a4, #ef3761);
+      color: aliceblue;
+
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: 0.3s;
+      position: relative;
+      overflow: hidden;
+      margin-top: 20px;
+    }
+
+
+    .rolldice-button:hover {
+      box-shadow: 0 0 30px #ee71a4;
+
+    }
+
+    .bottom-section {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+
+
+
+
+
+    }
+
+    .player-move,
+    .computer-move {
+      background-color: #0d1132c0;
+      height: 400px;
+      flex: 1;
+      margin: 10px 10px 10px 10px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+
+    .dice-image {
+      height: 250px;
+    }
+
+    .opponent-move {
+      font-family: "Lexend Deca", sans-serif;
+      background-color: #262c5e;
+      border: none;
+      color: rgba(255, 255, 255, 0.582);
+      padding: 10px 60px 10px 60px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+
+
+    }
+    .win-status-button,
+    .score-board-button{
+      background-color: #262c5e;
+      margin-top: 10px;
+      border: none;
+      padding: 10px 20px 10px 20px;
+      border-radius: 10px;
+      color: white;
+      font-family: "Lexend Deca", sans-serif;
+      text-transform: uppercase;
+    }
+
+
+    .button-colour-red{
+      background-color: #ef3761;
+    }
+
+    .button-colour-green{
+      background-color: rgb(47, 209, 147);
+       background-image: linear-gradient(180deg, #6fe6be, #02b488);
+    }
+
+    .button-colour-grey{
+      background-color: grey;
+    }
+
