@@ -1,0 +1,4 @@
+- Simple dice game
+- Rolls dice for computer and player
+- One with higher number wins (on the dice)
+- Score logs and saves
